@@ -28,6 +28,16 @@ a {
 a:hover {
   color: rgba(255, 255, 255, 0.4)
 }
+a.non-white-hover:hover {
+  color:#75C3FA
+}
+
+img.img-fluid {
+  max-height: 80vh;
+  height: auto;
+  width: fit-content;
+  object-fit: cover;
+}
 
 p {
   line-height: 1.75;
@@ -38,8 +48,8 @@ p {
 }
 
 .site-heading {
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
   text-transform: uppercase;
   line-height: 1;
   font-family: 'Raleway';
@@ -154,8 +164,8 @@ p {
 }
 
 .cta {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+  /* padding-top: 5rem; */
+  /* padding-bottom: 5rem; */
   /* background-color: rgba(230, 167, 86, 0.9); */
 }
 
@@ -214,7 +224,7 @@ p {
 }
 
 .list-hours .list-hours-item {
-  border-bottom: 1px solid #114B5F;
+  /* border-bottom: 1px solid #114B5F; */
   padding-bottom: .25rem;
   margin-bottom: 1rem;
   font-style: italic;
@@ -222,7 +232,7 @@ p {
 
 .list-hours .list-hours-item.today {
   font-weight: bold;
-  color: #e6a756;
+  color: #114B5F;
 }
 
 @media (min-width: 992px) {
