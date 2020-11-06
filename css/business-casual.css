@@ -98,6 +98,8 @@ p {
 #mainNav {
   background-color: #99DFEA;
   font-family: 'Raleway';
+  padding-top: 0.7rem!important;
+  padding-bottom: 0.7rem!important;
 }
 
 #mainNav .navbar-brand {
