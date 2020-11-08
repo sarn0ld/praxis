@@ -33,10 +33,35 @@ a.non-white-hover:hover {
 }
 
 img.img-fluid {
-  max-height: 80vh;
+  max-height: 60vh;
   height: auto;
   width: fit-content;
   object-fit: cover;
+}
+
+img.logo-small {
+  height: 40px;
+}
+
+img.logo {
+  max-height: 7rem;
+  margin-right: 15px;
+  z-index: 2;
+}
+
+@media (min-width: 1080px) {
+  img.logo {
+  }
+}
+
+.heading {
+  vertical-align: middle;
+  display: flex;
+  width: 100vw;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
 p {
