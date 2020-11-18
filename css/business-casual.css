@@ -190,6 +190,19 @@ p {
   }
 }
 
+@media (max-width: 450px) {
+  .navbar-brand {
+    font-size: .9rem;
+  }
+}
+@media (max-width: 350px) {
+  .navbar-brand {
+    font-size: .7rem;
+  }
+}
+
+
+
 .cta {
   /* padding-top: 5rem; */
   /* padding-bottom: 5rem; */
@@ -295,7 +308,7 @@ p {
 }
 
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
-  background-color: #38A896;
+  background-color: #38A896 !important;
   border-color: #38A896;
 }
 
