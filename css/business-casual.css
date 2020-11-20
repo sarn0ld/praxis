@@ -31,7 +31,9 @@ a:hover {
 a.non-white-hover:hover {
   color:#75C3FA
 }
-
+li {
+  list-style: none;
+}
 img.img-fluid {
   max-height: 60vh;
   height: auto;
